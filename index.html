@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For a Wonderful Soul — Piyali</title>
+<meta name="description" content="A little birthday story made with love for Piyali.">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&family=Parisienne&display=swap');
+:root{--cream:#fff9f4;--rose:#d98c9b;--deep:#633d49;--gold:#c8a46b;--ink:#34272c}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:"DM Sans",sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.18;background-image:radial-gradient(#c8a46b 1px,transparent 1px);background-size:28px 28px}
+.hero{min-height:100vh;display:grid;place-items:center;text-align:center;position:relative;padding:50px 22px;background:linear-gradient(145deg,#fff9f4 10%,#f9e9eb 55%,#eee3f2 100%)}
+.hero-inner{max-width:850px;animation:rise 1.2s ease both}.eyebrow{text-transform:uppercase;letter-spacing:5px;font-size:12px;color:var(--gold);font-weight:600}
+h1{font-family:"Cormorant Garamond",serif;font-size:clamp(62px,13vw,145px);line-height:.8;margin:25px 0 20px;color:var(--deep);font-weight:600}
+.script{font-family:"Parisienne",cursive;font-size:clamp(38px,7vw,72px);color:var(--rose)}
+.hero p{max-width:560px;margin:25px auto;color:#735c63;line-height:1.8;font-size:16px}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:15px 25px;border:1px solid rgba(99,61,73,.25);border-radius:999px;color:var(--deep);text-decoration:none;background:rgba(255,255,255,.6);backdrop-filter:blur(8px);transition:.3s}
+.btn:hover{transform:translateY(-3px);background:white;box-shadow:0 12px 30px #633d4918}
+.petal{position:absolute;width:12px;height:20px;background:#e4a6b1;border-radius:80% 20% 80% 20%;opacity:.55;animation:float 8s infinite ease-in-out}
+.p1{left:12%;top:20%}.p2{right:15%;top:30%;animation-delay:2s}.p3{left:25%;bottom:18%;animation-delay:4s}.p4{right:28%;bottom:22%;animation-delay:1s}
+section{padding:100px 7vw;max-width:1250px;margin:auto}.section-head{text-align:center;margin-bottom:55px}.section-head span{font-family:"Parisienne";font-size:42px;color:var(--rose)}.section-head h2{font-family:"Cormorant Garamond";font-size:54px;color:var(--deep);margin:3px 0}.section-head p{color:#806b71}
+.gallery{columns:3 250px;column-gap:22px}.card{break-inside:avoid;margin:0 0 22px;border-radius:20px;overflow:hidden;background:white;box-shadow:0 12px 35px #633d4915;cursor:pointer;transition:.4s}.card:hover{transform:translateY(-6px) rotate(.2deg);box-shadow:0 22px 45px #633d4920}.card img{width:100%;display:block;height:auto}.caption{padding:15px 17px 17px;font-family:"Cormorant Garamond";font-size:20px;color:var(--deep)}
+.letter{max-width:800px;margin:auto;padding:55px clamp(25px,7vw,80px);background:#fff;border:1px solid #ecdcd8;border-radius:28px;box-shadow:0 20px 55px #633d4910;position:relative}.letter:before{content:"“";position:absolute;left:25px;top:5px;font-family:Georgia;font-size:100px;color:#f0d4d8}.letter p{font-family:"Cormorant Garamond";font-size:24px;line-height:1.7;color:#574349}.sign{font-family:"Parisienne";font-size:38px;color:var(--rose);text-align:right}
+.timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.time-card{padding:25px;border-radius:20px;background:#fff;border:1px solid #eadbd8;text-align:center}.time-card .icon{font-size:30px}.time-card h3{font-family:"Cormorant Garamond";font-size:25px;margin:12px 0 7px;color:var(--deep)}.time-card p{font-size:13px;color:#806b71;line-height:1.6}
+.final{min-height:80vh;display:grid;place-items:center;text-align:center;background:linear-gradient(160deg,#633d49,#8d5b68);color:white;max-width:none;padding:80px 25px}.final h2{font-family:"Cormorant Garamond";font-size:clamp(55px,10vw,105px);line-height:.9;margin:15px 0}.final .script{color:#f4c8d0}.final p{max-width:560px;line-height:1.8;color:#f4e6e8}.heart{font-size:45px;animation:pulse 1.5s infinite}
+footer{text-align:center;padding:28px;background:#4d3038;color:#d9bec4;font-size:12px;letter-spacing:1px}
+.modal{position:fixed;inset:0;background:#1d1115e8;display:none;align-items:center;justify-content:center;padding:25px;z-index:10}.modal.open{display:flex}.modal img{max-width:min(100%,1050px);max-height:88vh;object-fit:contain;border-radius:14px;box-shadow:0 25px 70px #0008}.close{position:absolute;right:25px;top:20px;color:white;font-size:35px;cursor:pointer}
+@keyframes rise{from{opacity:0;transform:translateY(25px)}to{opacity:1;transform:none}}@keyframes float{0%,100%{transform:translateY(0) rotate(15deg)}50%{transform:translateY(-35px) rotate(55deg)}}@keyframes pulse{50%{transform:scale(1.18)}}
+@media(max-width:700px){section{padding:75px 20px}.timeline{grid-template-columns:1fr 1fr}.section-head h2{font-size:43px}.letter p{font-size:21px}}
+@media(max-width:420px){.timeline{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <i class="petal p1"></i><i class="petal p2"></i><i class="petal p3"></i><i class="petal p4"></i>
+  <div class="hero-inner">
+    <div class="eyebrow">A little birthday story</div>
+    <h1>Piyali</h1>
+    <div class="script">For a Wonderful Soul</div>
+    <p>Some memories deserve more than a place in a gallery. They deserve a little story of their own.</p>
+    <a class="btn" href="#memories">Open Your Story <span>↓</span></a>
+  </div>
+</header>
+
+<section id="memories">
+  <div class="section-head"><span>Beautiful moments</span><h2>Memories, one frame at a time</h2><p>A few moments that make this collection special.</p></div>
+  <div class="gallery">
+    <figure class="card"><img src="photos/memory-1.jpeg" alt="Piyali memory 1"><figcaption class="caption">A smile worth remembering.</figcaption></figure>
+    <figure class="card"><img src="photos/memory-2.jpeg" alt="Piyali memory 2"><figcaption class="caption">Grace in every frame.</figcaption></figure>
+    <figure class="card"><img src="photos/memory-3.jpeg" alt="Piyali memory 3"><figcaption class="caption">Little moments, lasting memories.</figcaption></figure>
+    <figure class="card"><img src="photos/memory-4.jpeg" alt="Piyali memory 4"><figcaption class="caption">Beautiful inside and out.</figcaption></figure>
+    <figure class="card"><img src="photos/memory-5.jpeg" alt="Piyali memory 5"><figcaption class="caption">A moment frozen in time.</figcaption></figure>
+    <figure class="card"><img src="photos/memory-6.jpeg" alt="Piyali memory 6"><figcaption class="caption">Your Two Mothers</figcaption></figure>
+	<figure class="card"><img src="photos/memory-7.jpeg" alt="Piyali memory 7"><figcaption class="caption">Your Fighting Partner and also Strength</figcaption></figure>
+	<figure class="card"><img src="photos/memory-8.jpeg" alt="Piyali memory 8"><figcaption class="caption">The group you enjoy every moments</figcaption></figure>
+  </div>
+</section>
+
+<section>
+  <div class="section-head"><span>The little things</span><h2>A collection of feelings</h2></div>
+  <div class="timeline">
+    <div class="time-card"><div class="icon">🌿</div><h3>Adventures</h3><p>For every road that becomes a memory.</p></div>
+    <div class="time-card"><div class="icon">🪔</div><h3>Celebrations</h3><p>For colours, lights and moments worth keeping.</p></div>
+    <div class="time-card"><div class="icon">🌸</div><h3>Traditions</h3><p>For the beautiful pieces of home we carry with us.</p></div>
+    <div class="time-card"><div class="icon">❤️</div><h3>Special Moments</h3><p>For the smiles that make ordinary days extraordinary.</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="section-head"><span>A letter for you</span><h2>Dear Piyali,</h2></div>
+  <div class="letter">
+    <p>Some people are remembered for the things they do, some for the words they say, but some are remembered simply for the warmth they bring into other people's lives.</p>
+    <p>You are one of those people.</p>
+    <p>May your smile always remain this beautiful, may your dreams take you wherever your heart wishes, and may every new chapter of your life be more beautiful than the last.</p>
+    <p>Keep being the wonderful soul that you are.</p>
+    <div class="sign">Happy Birthday, Piyali ♡</div>
+  </div>
+</section>
+
+<section class="final">
+  <div>
+    <div class="heart">♡</div>
+    <div class="script">One last thing...</div>
+    <h2>Happy Birthday,<br>Piyali!</h2>
+    <p>May life give you countless reasons to smile, beautiful places to discover, wonderful people to meet, and memories you'll want to revisit again and again.</p>
+    <p><strong>Keep smiling. Keep shining. Keep being you.</strong></p>
+  </div>
+</section>
+<footer>Made with ♥ for Piyali · A little collection of beautiful memories</footer>
+
+<div class="modal" id="modal"><div class="close" onclick="closeModal()">×</div><img id="modalImg" src="" alt="Expanded memory"></div>
+
+<script>
+document.querySelectorAll('.card img').forEach(img=>img.addEventListener('click',()=>{document.getElementById('modalImg').src=img.src;document.getElementById('modal').classList.add('open')}));
+function closeModal(){document.getElementById('modal').classList.remove('open')}
+document.getElementById('modal').addEventListener('click',e=>{if(e.target.id==='modal')closeModal()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
+</script>
+</body>
+</html>
